@@ -1,0 +1,36 @@
+@font-face {
+    font-family: beauty;
+    src: url("../assets/Beauty.otf");
+}
+
+.input-bg {
+  background: linear-gradient(
+      146.88deg,
+      rgba(216, 0, 50, 0.1) -15.23%,
+      rgba(216, 0, 50, 0) 111.21%
+    ),
+    linear-gradient(
+      147.82deg,
+      rgba(216, 0, 50, 0.1) 0%,
+      rgba(216, 0, 50, 0.53) 99.04%
+    );
+
+  box-shadow: 0px 20px 40px 0px rgba(0, 0, 0, 0.1);
+  border: 1px solid;
+
+  border-image-source: linear-gradient(
+    146.88deg,
+    rgba(216, 0, 50, 0.6) -15.23%,
+    rgba(216, 0, 50, 0) 111.21%
+  );
+  backdrop-filter: blur(2px);
+}
+
+.btn-bg {
+  background: linear-gradient(
+    90deg,
+    rgba(61, 12, 17, 0.69) 35.2%,
+    rgba(61, 12, 17, 0) 111.07%
+  );
+}
+

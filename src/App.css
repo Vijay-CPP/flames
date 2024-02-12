@@ -1,0 +1,7 @@
+.app-bg {
+  background-image: url("./assets/bg.svg"), url("./assets/bg-02.png");
+  background-attachment: fixed;
+  background-size: 100%;
+  background-repeat: repeat;
+  background-position: top;
+}
