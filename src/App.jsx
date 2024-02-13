@@ -10,29 +10,29 @@ import Result from "./components/Result.jsx";
 import Loader from "./components/Loader.jsx";
 
 function App() {
-  useEffect(() => {
-    // Function to send POST request to the server
-    const logToServer = async () => {
-      try {
-        const response = await fetch(import.meta.env.VITE_LOG_URL, {
-          method: "POST",
-          headers: {
-            "Content-Type": "application/json",
-          },
-          // body: JSON.stringify({ message: "Logging message here" }), // Adjust as needed
-        });
+  // useEffect(() => {
+  //   // Function to send POST request to the server
+  //   const logToServer = async () => {
+  //     try {
+  //       const response = await fetch(import.meta.env.VITE_LOG_URL, {
+  //         method: "POST",
+  //         headers: {
+  //           "Content-Type": "application/json",
+  //         },
+  //         // body: JSON.stringify({ message: "Logging message here" }), // Adjust as needed
+  //       });
 
-        // if (!response.ok) {
-        //   throw new Error("Failed to log to server");
-        // }
-      } catch (error) {
-        // console.error("Error logging to server:", error);
-      }
-    };
+  //       // if (!response.ok) {
+  //       //   throw new Error("Failed to log to server");
+  //       // }
+  //     } catch (error) {
+  //       // console.error("Error logging to server:", error);
+  //     }
+  //   };
 
-    // Call the function to log to the server
-    logToServer();
-  }, []);
+  //   // Call the function to log to the server
+  //   logToServer();
+  // }, []);
 
   const [name1, setName1] = useState("");
   const [name2, setName2] = useState("");
